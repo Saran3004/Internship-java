@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subpage 2</title>
+</head>
+<body>
+<h1>This is Subpage 2</h1>
+<p>Content for the second subpage goes here.</p>
+<a href="https://www.tpointtech.com/python-tutorial">PYTHON</a>
+<a href="index.html">Back to Home</a>
+</body>
+</html>
