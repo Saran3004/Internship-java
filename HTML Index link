@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TPoint Tech</title>
+</head>
+<body>
+<h1>Welcome to Website</h1>
+<p>This is the main homepage. Use the links below to navigate to subpages.</p>
+<nav>
+<ul>
+<li><a href="Link1.html">HTML</a></li>
+<li><a href="link2.html">PYTHON</a></li>
+<li><a href="link3.html">JAVA</a></li>
+</ul>
+</nav>
+</body>
+</html>
