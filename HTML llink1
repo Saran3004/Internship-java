@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subpage 1</title>
+</head>
+<body>
+<h1>This is Subpage 1</h1>
+<p>Content for the first subpage goes here.</p>
+<a href="https://www.tpointtech.com/html-tutorial">HTML</a>
+<a href="index.html">Back to Home</a>
+</body>
+</html>
