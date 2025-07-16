@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class Time Table</title>
+<style>
+table {
+border-collapse: collapse;
+width: 80%;
+height: 100px;
+}
+th, td {
+border: 2px solid black;
+padding: 10px;
+text-align: center;
+}
+th 
+{
+background-color: white;
+}
+</style>
+</head>
+<body>
+<h2>Even Sem Exam Time Table</h2>
+<h4>IVsem AI&DS</h4>
+<table>
+<tr>
+<th>Date</th>
+<th>Day</th>
+<th>Subject</th>
+<th>Session</th>
+</tr>
+<tr>
+<td>03-06-2025</td>
+<td>Tuesday</td>
+<td>Environment Science Sustainability</td>
+<td>FN</td>
+</tr>
+<tr>
+<td>05-06-2025</td>
+<td>Thursday</td>
+<td>Machine Learning</td>
+<td>FN</td>
+</tr>
+<tr>
+<td>10-06-2025</td>
+<td>Tuesday</td>
+<td>Computer Network</td>
+<td>FN</td>
+</tr>
+<tr>
+<td>12-06-2025</td>
+<td>Thursday</td>
+<td>Probability and Statistics</td>
+<td>FN</td>
+</tr>
+<tr>
+<td>14-06-2025</td>
+<td>Saturday</td>
+<td>Operating Systems</td>
+<td>FN</td>
+</tr>
+<tr>
+<td>17-06-2025</td>
+<td>Tuesday</td>
+<td>Fundamental and Data Analysis</td>
+<td>FN</td>
+</tr>
+</table>
+</body>
+</html>
