@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TPoint Tech</title>
+</head>
+<body>
+<h1><center>Welcome to Website</h1>
+<p><h2><center><u>This is the main homepage. Use the image below to navigate to subpages.</u></h2></p>
+<body background="C:\Users\saran\Desktop\HTML\image link\bg img.jpg">
+<a href="https://www.tpointtech.com/html-tutorial"><img src="C:\Users\saran\Desktop\HTML\image link\html img.jpeg",height="174",width="290" ></a><br>
+<a href="https://www.tpointtech.com/python-tutorial"><img src="C:\Users\saran\Desktop\HTML\image link\python img.JPG",height="131",width="450"></a><br>
+<a href="https://www.tpointtech.com/java-tutorial"><img src="C:\Users\saran\Desktop\HTML\image link\java img.jpg",height="137",width="129"></a><br>
+</body>
+</html>
