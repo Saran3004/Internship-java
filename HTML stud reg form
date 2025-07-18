@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Student Registation Form</h2>
+<form action="/action_page.php">
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname"><br>
+<label for="DOB">Date of Birth:</label><br>
+<input type="date" id="DOB" name="DOB"><br>
+<label for="mobile">Mobie no:</label><br>
+<input type="num" id="mobile" name="mobile"><br>
+<label for="Email">Email id:</label><br>
+<input type="text" id="Email" name="Email"><br>
+<label for="pwd">Password:</label><br>
+<input type="text/num" id=pwd" name="pwd"><br>
+<label for="Gender">Gender:</label><br>
+<select name="Gender" id="Gender"><br>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select><br>
+<label for="dept">Department:</label><br>
+<select name="dept" id="dept">
+<option value="csc">CSC</option>
+<option value="it">IT</option>
+<option value="ai&ds">AI&DS</option>
+<option value="csbs">CSBS</option></select><br><br>
+<button><a href="C:\Users\saran\Desktop\HTML\registation form\stud login form.html" class="button-class">Submit</a></button>
+</form>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>
