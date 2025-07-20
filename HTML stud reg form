@@ -1,33 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 30px;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
 <body>
-<h2>Student Registation Form</h2>
-<form action="/action_page.php">
-<label for="fname">First name:</label><br>
-<input type="text" id="fname" name="fname"><br>
-<label for="lname">Last name:</label><br>
-<input type="text" id="lname" name="lname"><br>
-<label for="DOB">Date of Birth:</label><br>
-<input type="date" id="DOB" name="DOB"><br>
-<label for="mobile">Mobie no:</label><br>
-<input type="num" id="mobile" name="mobile"><br>
-<label for="Email">Email id:</label><br>
-<input type="text" id="Email" name="Email"><br>
-<label for="pwd">Password:</label><br>
-<input type="text/num" id=pwd" name="pwd"><br>
-<label for="Gender">Gender:</label><br>
-<select name="Gender" id="Gender"><br>
-<option value="Male">Male</option>
-<option value="Female">Female</option>
-</select><br>
-<label for="dept">Department:</label><br>
-<select name="dept" id="dept">
-<option value="csc">CSC</option>
-<option value="it">IT</option>
-<option value="ai&ds">AI&DS</option>
-<option value="csbs">CSBS</option></select><br><br>
-<button><a href="C:\Users\saran\Desktop\HTML\registation form\stud login form.html" class="button-class">Submit</a></button>
-</form>
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+  <form>
+    <h2>Register</h2>
+  <label for="fname">first name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="DOB">Data of birth:</label><br>
+  <input type="DATE" id="DOB" date="DOB" value=""><br><br>
+  <label for="Qualifications">Qualifcations:</label><br>
+  <input  type="text"id="Qualifications" name="Qualifications" value=""><br>
+  <label for="uname">username:</label><br>
+  <input type="text" id="uname" name="uname" value=""><br><br>
+  <label for="address">address:</label><br>
+  <input type="text" id="address" name="address" value=""><br>
+  <label for="password">password:</label><br>
+  <input type="" id="password" name="pasword" value=""><br>
+  <label for="mob no">Mobile number:</label><br>
+  <input type="num" id="num" name="num" value=""><br><br>
+   <button>
+   <a href="file:///C:/Users/saran/Desktop/HTML/registation%20form/stud%20login.html" class="buton-class">register</a>
+</button>
+  </form>
+
+  <script>
+    function register() {
+      const username = document.getElementById('reg-username').value;
+      const password = document.getElementById('reg-password').value;
+
+      if (username && password) {
+        localStorage.setItem('savedUsername', username);
+        localStorage.setItem('savedPassword', password);
+        alert('Registered successfully!');
+        window.location.href = 'file:///C:/Users/saran/Desktop/HTML/registation%20form/stud%20login.htm'; // Redirect to login page
+      } else {
+        alert('Please fill both fields.');
+      }
+    }
+  </script>
 </body>
 </html>
