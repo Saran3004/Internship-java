@@ -1,0 +1,12 @@
+abstract class Animals{
+abstract void eat();
+}
+class Lion extends Animals{
+void eat(){System.out.println("Lion is the King of Forest");}  
+}
+public class Main{
+public static void main(String args[]){
+Animals obj = new Lion();
+obj.eat();
+}
+}
