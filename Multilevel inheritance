@@ -1,0 +1,28 @@
+class Frienship{  
+void frd1(){System.out.println("pooja");}  
+}  
+class clg extends Frienship{  
+void frd2(){System.out.println("ponmozhi");}  
+}  
+class clg2 extends clg{  
+void frd3(){System.out.println("Balaji");}  
+}  
+class clg3 extends clg2{
+    void frd4(){System.out.println("Thula");}
+}
+class clg4 extends clg3{
+    void frd5(){System.out.println("Santhosh");}
+}
+class clg5 extends clg4{
+    void frd6(){System.out.println("Saran");}
+}
+public class Main{  
+public static void main(String args[]){  
+clg5 F=new clg5();  
+F.frd1();  
+F.frd2();  
+F.frd3();
+F.frd4();
+F.frd5();  
+F.frd6();
+}}
