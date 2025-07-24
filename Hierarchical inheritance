@@ -1,0 +1,18 @@
+class Bank{  
+void magr(){System.out.println("Manager - Employee&Customer");}  
+}  
+class bank1 extends Bank{
+void emp(){System.out.println("Manager tells employee's today bank leave");}  
+}  
+class bank2 extends bank1{  
+void cust(){System.out.println("Manager told to customer today bank holiday");}  
+}  
+public class Main{  
+public static void main(String args[]){  
+bank1 B1=new bank1();   
+B1.magr(); 
+B1.emp();
+bank2 B2=new bank2();
+B2.magr();
+B2.cust(); 
+}}
