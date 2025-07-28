@@ -1,0 +1,14 @@
+ class multiple {    
+    static int mul(int a, int b) {  
+        return a * b;  
+    }  
+    static int mul(int a, int b, int c) {  
+        return a * b - c;  
+    }  
+}  
+public class Main {  
+    public static void main(String[] args) {  
+        System.out.println(multiple.mul(17, 12)); 
+        System.out.println(multiple.mul(10, 18, 35)); 
+    }  
+}  
