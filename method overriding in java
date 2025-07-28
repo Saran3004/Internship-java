@@ -1,0 +1,15 @@
+class laptop{     
+  void work(){System.out.println("Laptop is working process");}    
+}    
+class dell extends laptop{    
+    
+  void work(){System.out.println("Please wait Laptop is processing");}   
+}
+public class Main{ 
+  public static void main(String args[]){    
+  laptop L1 = new laptop();  
+  dell L2 = new dell();  
+  L1.work();
+  L2.work();
+  }    
+}    
