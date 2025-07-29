@@ -1,0 +1,43 @@
+class Aadhar {  
+private long adh_no;  
+private String name;  
+private long mob_no; 
+private String address;   
+public long getAdh_no() {  
+    return adh_no;  
+}  
+public void setAdh_no(long adh_no) {  
+    this.adh_no = adh_no;  
+}  
+public String getName() {  
+    return name;  
+}  
+public void setName(String name) {  
+    this.name = name;  
+}    
+public long getmob_no() {  
+    return mob_no;  
+}  
+public void setmob_no(long mob_no) {  
+    this.mob_no = mob_no;
+}
+public String getaddress() {
+    return address;
+}
+public void setaddress(String address) {
+    this.address = address;
+}
+}
+public class Main {  
+public static void main(String[] args) {
+    Aadhar Adh_no = new Aadhar();
+    Adh_no.setAdh_no(510835383828L);
+    Adh_no.setName("Saran T");
+    Adh_no.setmob_no(6369841414L);
+    Adh_no.setaddress("84, Thandavarayan Gounder street, Velapadi, Vellore-632001");
+    System.out.println(Adh_no.getAdh_no()+" ");
+    System.out.println(Adh_no.getName()+" ");
+    System.out.println(Adh_no.getmob_no()+" ");
+    System.out.println(Adh_no.getaddress()+" ");
+}  
+}
