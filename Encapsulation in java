@@ -35,9 +35,9 @@ public static void main(String[] args) {
     Adh_no.setName("Saran T");
     Adh_no.setmob_no(6369841414L);
     Adh_no.setaddress("84, Thandavarayan Gounder street, Velapadi, Vellore-632001");
-    System.out.println(Adh_no.getAdh_no()+" ");
-    System.out.println(Adh_no.getName()+" ");
-    System.out.println(Adh_no.getmob_no()+" ");
-    System.out.println(Adh_no.getaddress()+" ");
+    System.out.println("Aadhar No: " + Adh_no.getAdh_no());
+    System.out.println("Aadhar Name: " + Adh_no.getName());
+    System.out.println("Aadhar Mobile No: " + Adh_no.getmob_no());
+    System.out.println("Aadhar Address: " + Adh_no.getaddress());
 }  
 }
