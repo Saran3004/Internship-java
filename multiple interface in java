@@ -1,0 +1,51 @@
+interface Mobile {
+    void brand();
+}
+
+interface Feature {
+    void showFeature();
+}
+
+class Samsung implements Mobile, Feature {
+    public void brand() {
+        System.out.println("Brand: Samsung");
+    }
+    public void showFeature() {
+        System.out.println("Features: AMOLED Display, 108MP Camera, 5G Support");
+    }
+}
+
+class iPhone implements Mobile, Feature {
+    public void brand() {
+        System.out.println("Brand: iPhone");
+    }
+    public void showFeature() {
+        System.out.println("Features: Face ID, Retina Display, iOS 18");
+    }
+}
+
+class OnePlus implements Mobile, Feature {
+    public void brand() {
+        System.out.println("Brand: OnePlus");
+    }
+    public void showFeature() {
+        System.out.println("Features: Fast Charging, OxygenOS, Fluid Display");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Samsung samsung = new Samsung();
+        iPhone iphone = new iPhone();
+        OnePlus oneplus = new OnePlus();
+
+        samsung.brand();
+        samsung.showFeature();
+
+        iphone.brand();
+        iphone.showFeature();
+
+        oneplus.brand();
+        oneplus.showFeature();
+    }
+}
