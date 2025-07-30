@@ -1,0 +1,46 @@
+interface Mobile {
+    void model();
+}
+interface Features {
+    void featureList();
+}
+class Samsung implements Mobile, Features {
+    public void model() {
+        System.out.println("Samsung Galaxy S24");
+    }
+    public void featureList() {
+        System.out.println("Features: AMOLED Display, 5G, Triple Camera");
+    }
+}
+class iPhone implements Mobile, Features {
+    public void model() {
+        System.out.println("iPhone 15 Pro");
+    }
+    public void featureList() {
+        System.out.println("Features: Retina Display, Face ID, iOS 17");
+    }
+}
+class OnePlus implements Mobile, Features {
+    public void model() {
+        System.out.println("OnePlus 12");
+    }
+    public void featureList() {
+        System.out.println("Features: Fluid AMOLED, 100W Fast Charging, OxygenOS");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Samsung samsung = new Samsung();
+        iPhone iphone = new iPhone();
+        OnePlus oneplus = new OnePlus();
+
+        samsung.model();
+        samsung.featureList();
+
+        iphone.model();
+        iphone.featureList();
+
+        oneplus.model();
+        oneplus.featureList();
+    }
+}
