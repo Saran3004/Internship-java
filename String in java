@@ -1,0 +1,12 @@
+class Main {
+  public static void main(String[] args) {
+    String Dept1 = "Information Technology";
+    String Dept2 = "Artificial Intelligence and Data Science";
+    String Dept3 = "Cyber Security";
+    String Dept4 = "Computer Science";
+    System.out.println(Dept1);
+    System.out.println(Dept2);
+    System.out.println(Dept3);
+    System.out.println(Dept4);
+  }
+}
