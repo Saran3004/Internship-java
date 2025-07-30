@@ -1,0 +1,8 @@
+class Main {
+  public static void main(String[] args) {
+    String clg = "Ganadipathy Tulsi Jain Engineering College";
+    System.out.println("String: " + clg);
+    int length = clg.length();
+    System.out.println("Length: " + length);
+  }
+}
